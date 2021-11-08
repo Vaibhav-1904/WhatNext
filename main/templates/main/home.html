@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}" />
+</head>
+<body>
+    <div class="heading">
+        <img src="{% static './images/heading.png'%}" alt="">
+    </div>
+
+    <hr style = "width: 50%">
+
+    <div class="container">
+        <h1>HEY</h1>
+        <div class="gif">
+            <img src="{% static './images/robo.gif'%}" alt="">
+        </div>
+
+        <h2>
+            This is <b>Ranzo, </b> your AI Friend, I'm going to help you decide
+            What to watch next...
+        </h2>
+
+        <h2>Enter a Movie that you like </h2>
+        
+        <form action="/searchMovie/" method="POST">
+            {% csrf_token %}
+            <input type="text" name="name" id="name" placeholder = "Enter your Movie">
+            <br>
+            <button type="submit"> Search </button>
+        </form>
+
+        <div class="results">
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('./images/bg.png');
+    font-family: "Montserrat", sans-serif;
+}
+
+body .heading{
+    text-align: center;
+}
+
+body .heading img{
+    width: 25%;
+    border-radius: 15px;
+}
+
+body .container{
+    text-align: center;
+    color: white;
+}
+
+body .container h1, body .container h2{
+    font-family: 'Nunito', sans-serif;
+}
+
+body .container .gif img{
+    height: 100px;
+    width: 80px;
+}
+
+body .container form input{
+    width: 25%;
+    height: 3rem;
+    line-height: 1.7rem;
+    padding: 0 5px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    /* background-color: transparent; */
+    font-size:20px;
+    color: black;
+    margin-top: 15px;
+    outline: none;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.5),
+    5px 5px 15px rgba(82, 82, 82, 0.12),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 15px rgba(92, 92, 92, 0.12);
+    font-family: "Montserrat", sans-serif;
+}
+
+body .container form button{
+    font-family: "Montserrat", sans-serif;
+    border-radius:5px;
+    color: black;
+    margin-top: 15px;
+    outline: none;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.5),
+    5px 5px 15px rgba(82, 82, 82, 0.12),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 15px rgba(92, 92, 92, 0.12);
+    width: 8%;
+    font-size:16px;
+    height: 30px;
+}
+
+
+

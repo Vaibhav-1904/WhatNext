@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('./images/bg.png');
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body .heading{
+    text-align: center;
+    margin-left: 100px;
+}
+
+body .container{
+    text-align: center;
+}
+
+body .container h1{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+body .container .gif{
+    height: 50px;
+    width: 40px;
+}
+
+body .container form input{
+    width: 70%;
+    height: 3rem;
+    line-height: 1.7rem;
+    padding: 0 5px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    background-color: transparent;
+    color: white;
+    margin-top: 15px;
+    outline: none;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.5),
+    5px 5px 15px rgba(82, 82, 82, 0.12),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 15px rgba(92, 92, 92, 0.12);
+}
+
+
+
