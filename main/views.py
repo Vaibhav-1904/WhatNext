@@ -11,4 +11,10 @@ def searchMovie(request):
         search_movie = UserMovie(name = movie_name)
         search_movie.save()
 
-    return render(request, "main/home.html")
+    return render(request, "main/movies.html")
+
+def showMovies(request):
+
+    
+
+    return render(request, "main/movies.html")

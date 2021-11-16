@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('./images/bg.png');
+    font-family: "Montserrat", sans-serif;
+}
+
+.heading{
+    text-align: center;
+    margin-left: 100px;
+}
+
+body .recommendedMovies{
+    margin-top: 2%;
+}
+
+body .recommendedMovies .one{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body .recommendedMovies .one img{
+    height: 10%;
+    text-align: center;
+    width: 10%;
+    margin: 0 auto;
+}

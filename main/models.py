@@ -7,3 +7,11 @@ class UserMovie(models.Model):
     def __str__(self):
         return self.name
 
+
+class RecommendedMovies(models.Model):
+    title = models.CharField(max_length = 100)
+    url = models.URLField(max_length = 200)
+
+    def __str__(self):
+        return self.title
+
