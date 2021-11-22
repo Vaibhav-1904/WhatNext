@@ -9,3 +9,6 @@ Home Page of the Application
 
 Recomemended Movies
 
+https://user-images.githubusercontent.com/72696677/142809233-35207ebb-09c6-42bd-9e37-2f9d6ab3fac9.mp4
+
+
