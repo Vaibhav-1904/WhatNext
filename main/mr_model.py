@@ -78,8 +78,11 @@ def getRecommendations(name):
 		movie_index = search[0].movieID
 		movie = ia.get_movie(movie_index)
 
-		recommended_movies = RecommendedMovies(title = movie['title'], url = movie['cover url'])
-		recommended_movies.save()
+		try:
+			recommended_movies = RecommendedMovies(title = movie['title'], url = movie['cover url'])
+			recommended_movies.save()
+		except:
+			continue
 
 		# list_of_movies.append(movie['title'])
 		# list_of_urls.append(movie['cover url'])
