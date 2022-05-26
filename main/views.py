@@ -4,9 +4,6 @@ from .mr_model import getRecommendations
 from .models import RecommendedMovies
 
 def homePage(request):
-
-
-
     return render(request, "main/home.html")
 
 def searchMovie(request):

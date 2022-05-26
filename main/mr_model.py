@@ -25,22 +25,6 @@ def combine_features(row):
 	except:
 		print("Error : ", row)
 
-# def create_model():
-# 	df = pd.read_csv('main/movie_dataset_IMDB.csv', low_memory=False)
-# 	features = ['genres', 'cast', 'director', 'keywords']
-
-# 	for i in features:
-# 		df[i] = df[i].fillna('')
-
-# 	df["combined_features"] = df.apply(combine_features, axis=1)
-
-# 	cv = CountVectorizer()
-# 	count_matrix = cv.fit_transform(df["combined_features"])
-
-# 	cosine_simi = cosine_similarity(count_matrix)
-
-# 	return (cosine_simi, df)
-
 
 def getRecommendations(name):
 
@@ -92,14 +76,4 @@ def getRecommendations(name):
 		j = j + 1
 		if j > 7:
 			break
-
-	# return (list_of_movies, list_of_urls)
-
-	# i = 0
-	# for element in sorted_similar_movies:
-	# 	print(get_title_from_index(element[0]))
-	# 	i=i+1
-	# 	if i>50:
-	# 		break
-
 	
